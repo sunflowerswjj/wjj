@@ -1,0 +1,27 @@
+{
+  "code": 0,
+  "message": "",
+  "total": 2,
+  "list": [
+    {
+      "id": 186,
+      "name": "周啸天",
+      "picture": "img/man.png",
+      "sex": "0",
+      "matchId": "104",
+      "slogan": "有志者事竟成，百二秦关终属楚；苦心人天不负，三千越甲可吞吴",
+      "voteNum": 4,
+      "isVote": 1
+    },
+    {
+      "id": 188,
+      "name": "王燕",
+      "picture": "img/man.png",
+      "sex": "0",
+      "matchId": "000",
+      "slogan": "",
+      "voteNum": 0,
+      "isVote": 0
+    }
+  ]
+}

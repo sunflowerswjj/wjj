@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>珠峰培训-参加比赛</title>
+
+    <!--IMPORT CSS-->
+    <link rel="stylesheet/less" href="css/register.less">
+    <script src="js/less-2.5.3.min.js"></script>
+
+    <!--REM-->
+    <script>
+        ~function () {
+            window.addEventListener('resize', computed, false);
+            computed();
+            function computed() {
+                var deviceW = document.documentElement.clientWidth;
+                if (deviceW > 640) return;
+                document.documentElement.style.fontSize = deviceW / 640 * 100 + 'px';
+            }
+        }();
+    </script>
+</head>
+<body>
+<main class="mainBox">
+    <!--NAV-->
+    <nav class="navBox">
+        <a href="index.html">首页</a>
+        <a href="javascript:;">登录</a>
+        <a href="javascript:;">注册</a>
+        <a href="detail.html"></a>
+        <a href="javascript:;">退出</a>
+    </nav>
+
+    <header class="headerBox">
+        <img src="img/title.png" alt="">
+    </header>
+
+    <section class="registerBox">
+        <div class="item">
+            <h3>参赛标语：</h3>
+            <textarea placeholder="限制字数在10~100字以内 [一但输入就不能更改了哦]" style="line-height: .4rem; height: 3rem;"
+                      id="slogan"></textarea>
+            <span id="spanSlogan"></span>
+        </div>
+        <a href="javascript:;" class="submit" id="submit">确认参赛</a>
+    </section>
+</main>
+
+<!--IMPORT JS-->
+<script src="js/zepto.min.js"></script>
+<script src="js/common.js"></script>
+<script src="js/join.js"></script>
+</body>
+</html>
